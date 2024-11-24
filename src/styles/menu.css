@@ -1,0 +1,36 @@
+.menu-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  .menu-image {
+    flex: 1;
+    max-width: 20%; /* Ajusta o tamanho da imagem */
+    margin: 0 10px;
+  }
+  
+  .menu-image img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .menu-content {
+    flex: 2;
+    margin: 0 20px;
+  }
+  
+  .menu-content h1 {
+    text-align: center;
+  }
+  
+  .menu-content ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .menu-content ul li {
+    margin-bottom: 10px;
+  }
+  
